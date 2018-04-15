@@ -62,11 +62,13 @@ end
 def runner
   # code runner here
   sum = 0
-  until sum > 21
-      
-  end
   welcome
   sum = initial_round
-  hit?(sum)
-  display_card_total
+  until sum > 21
+      hit?(sum)
+      display_card_total
+  end
+
+
+
 end
