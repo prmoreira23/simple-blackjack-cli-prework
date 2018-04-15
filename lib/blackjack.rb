@@ -44,8 +44,6 @@ def hit?(card_total)
   case choice
     when 'h'
         card_total += deal_card
-    when 's'
-
     else
         invalid_command
   end
