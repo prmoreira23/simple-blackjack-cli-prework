@@ -20,6 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
+  choice = gets
 end
 
 def end_game
