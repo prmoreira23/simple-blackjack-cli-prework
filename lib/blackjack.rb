@@ -21,7 +21,9 @@ def prompt_user
   when 'h'
 
   when 's'
-      
+
+  when 'exit'
+
   end
 end
 
