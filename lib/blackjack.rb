@@ -23,7 +23,7 @@ def get_user_input
   choice = gets.chomp
 end
 
-def end_game
+def end_game(score)
   # code #end_game here
   puts "Sorry, you hit 27. Thanks for playing!"
 end
