@@ -40,7 +40,7 @@ end
 def hit?
   # code hit? here
   prompt_user
-  input = get_user_input
+  get_user_input
 end
 
 def invalid_command
