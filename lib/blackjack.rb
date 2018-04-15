@@ -43,9 +43,10 @@ def hit?(card_total)
   choice = get_user_input
   case choice
     when 'h'
-        new_card = deal_card
+        card_total += deal_card
     when 's'
   end
+  card_total
 end
 
 def invalid_command
