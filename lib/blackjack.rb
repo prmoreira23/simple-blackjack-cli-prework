@@ -10,9 +10,7 @@ end
 
 def display_card_total(card_total)
   # code #display_card_total here
-  for card in card_total do
-      puts card
-  end
+  puts card_total
 end
 
 def prompt_user
