@@ -25,7 +25,7 @@ end
 
 def end_game(score)
   # code #end_game here
-  puts "Sorry, you hit 27. Thanks for playing!"
+  puts "Sorry, you hit #{score}. Thanks for playing!"
 end
 
 def initial_round
