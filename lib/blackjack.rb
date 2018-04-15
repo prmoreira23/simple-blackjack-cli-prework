@@ -61,6 +61,10 @@ end
 
 def runner
   # code runner here
+  sum = 0
+  until sum > 21
+      
+  end
   welcome
   sum = initial_round
   hit?(sum)
