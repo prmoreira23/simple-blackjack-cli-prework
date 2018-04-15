@@ -43,7 +43,7 @@ def hit?(card_total)
   choice = get_user_input
   case choice
     when 'h'
-        new_card =
+        new_card = deal_card
     when 's'
   end
 end
